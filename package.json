@@ -4,13 +4,19 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "express": "^4.15.2"
+    },
+    "engines": {
+        "node": "8.9.1"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/TodorGarnev/cv-portfolio.git"
     },
-    "author": "",
+    "author": "TG",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/TodorGarnev/cv-portfolio/issues"
