@@ -1,0 +1,64 @@
+#wrapper {
+    background: #D6C2A3;
+    width: 50%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#wrapper h1 {
+    width: 100%;
+    padding: 20px 20px 12px;
+    font: 700 36px 'Open Sans', sans-serif;
+    background: #E84949;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#prompt {
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+
+#prompt p strong {
+    font-weight: 700;
+}
+
+#options {
+    display: flex;
+    padding: 0px 20px 28px;
+    justify-content: center;
+}
+
+#options button {
+    margin: 0px 8px;
+    padding: 8px 20px;
+    background: #C2AE8F;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+#options button:hover {
+    background: #E84949;
+    color: #FAFAFA;
+    cursor: pointer;
+}
+
+a > i {
+    margin: 10px;
+    padding: 0 20px;
+}
+
+a > i:hover {
+    color: white;
+    cursor: pointer;
+}
+
+p > span {
+    color: red;
+    font-weight: 700;
+}
