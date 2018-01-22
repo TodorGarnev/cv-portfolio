@@ -41,7 +41,7 @@
 
     $("#about").load("templates/_about.html", () => {
         console.log("about is loaded!")
-        $('head').append('<script src="js/modals.js"></script>')
+        $('head').append('<script src="js/modal.js"></script>')
     })
 
     $("#games").load("templates/_games.html", () => {
