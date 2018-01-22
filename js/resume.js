@@ -41,6 +41,5 @@
     loadPartial("skills")
     loadPartial("games")
 
-    $('body').append('<script src="js/games.js"></script>')
 
 })(jQuery) // End of use strict
