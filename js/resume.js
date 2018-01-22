@@ -39,15 +39,8 @@
     loadPartial("experience")
     loadPartial("education")
     loadPartial("skills")
-    loadPartial("games")
 
-    $(document).ready(() => {
-        $('<script/>', {
-            type: 'text/javascript',
-            src: 'js/games.js'
-        }).appendTo('body')
-    })
-
+    $("#games").load("templates/games.html", () => $('head').append('<script src="js/games.js"></script>'))
 
 
 })(jQuery) // End of use strict
