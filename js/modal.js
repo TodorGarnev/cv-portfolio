@@ -1,7 +1,8 @@
 /*global $, document */
 
-(function () {
+$(function () {
     "use strict"
+    console.log("modal.js is loaded")
 
     $(document).ready(() => {
         const name = Cookies.get("name")
@@ -20,4 +21,4 @@
     })
 
     $("#close").click(() => $("#greeting").text("Oh, you are shy unknown friend. Hello!"))
-})()
+})
