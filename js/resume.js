@@ -40,7 +40,7 @@
     loadPartial("education")
     loadPartial("skills")
 
-    $("#games").load("templates/games.html", () => $('head').append('<script src="js/games.js"></script>'))
+    $("#games").load("templates/_games.html", () => $('head').append('<script src="js/games.js"></script>'))
 
 
 })(jQuery) // End of use strict
