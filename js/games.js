@@ -38,8 +38,6 @@ $(function () {
 
 
 
-    $('body').append('<script src="js/games.js"></script>')
-
     $("#game-target-sum").click(() => {
         $('head').append('<link rel="stylesheet" href="css/targetSum.css">')
         loadGame("targetSum", "targetSum")
