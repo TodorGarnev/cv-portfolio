@@ -42,7 +42,10 @@
     loadPartial("games")
 
     $(document).ready(() => {
-        $('body').append('<script src="js/games.js"></script>')
+        $('<script/>', {
+            type: 'text/javascript',
+            src: 'js/games.js'
+        }).appendTo('body')
     })
 
 
