@@ -35,12 +35,19 @@
     }
 
 
-    loadPartial("about")
     loadPartial("experience")
     loadPartial("education")
     loadPartial("skills")
 
-    $("#games").load("templates/_games.html", () => $('head').append('<script src="js/games.js"></script>'))
+    $("#about").load("templates/_about.html", () => {
+        console.log("about is loaded!")
+        $('head').append('<script src="js/modals.js"></script>')
+    })
+
+    $("#games").load("templates/_games.html", () => {
+        console.log("games is loaded!")
+        $('head').append('<script src="js/games.js"></script>')
+    })
 
 
 })(jQuery) // End of use strict
